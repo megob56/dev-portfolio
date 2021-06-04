@@ -8,7 +8,8 @@
 		"start": "next start",
 		"test": "jest",
 		"test-watch": "jest --watch",
-		"pretty-quick": "pretty-quick"
+		"pretty-quick": "pretty-quick",
+		"cypress:open": "cypress open"
 	},
 	"dependencies": {
 		"next": "10.2.3",
@@ -24,6 +25,7 @@
 		"@types/node": "^15.12.0",
 		"@types/react": "^17.0.9",
 		"babel-jest": "^27.0.2",
+		"cypress": "^7.4.0",
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^27.0.4",
 		"pretty-quick": "^3.1.0",
